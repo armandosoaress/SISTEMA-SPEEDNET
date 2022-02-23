@@ -375,16 +375,16 @@ $dezembro1=$valor+$dezembro1;
                                             </div>
                         </li>
                          <li>
-                            <a href="index.php">
-                                <i class="fa fa-home"></i>inicio</a>
+                            <a href="nl">
+                                <i class="fa fa-home"></i>voltar</a>
                         </li>
                         <li>
                             <a href="Pagamento.php">
-                                <i class="fas fa-chart-bar"></i>Pagamento</a>
+                                <i class="fas fa-chart-bar"></i></a>OS pendentes
                         </li>
                         <li>
                             <a href="listadeclientes.php">
-                                <i class="fas fa-table"></i>Lista de clientes</a>
+                                <i class="fas fa-table"></i>OS concluidas</a>
                         </li>
                         <li>
                             <a href="pendentes.php">
@@ -434,32 +434,21 @@ $dezembro1=$valor+$dezembro1;
                                             </div>
                         </li>
                         <li>
-                            <a href="index.php">
-                                <i class="fa fa-home"></i>inicio</a>
+                            <a href="nl">
+                                <i class="fa fa-home"></i>Voltar</a>
                         </li>
                         <li>
                             <a href="Pagamento.php">
-                                <i class="fas fa-chart-bar"></i>Pagamento</a>
+                                <i class="fas fa-chart-bar"></i>OS pendentes</a>
                         </li>
                         <li>
                             <a href="listadeclientes.php">
-                                <i class="fas fa-table"></i>Lista de clientes</a>
+                                <i class="fas fa-table"></i>OS concluidas</a>
                         </li>
-                        <li>
-                            <a href="pendentes.php">
-                                <i class="far fa-check-square"></i>Instalações</a>
-                        </li>
-                        <li>
-                            <a href="despesas.php">
-                                <i class="fas fa-money-bill-alt"></i>Despesas</a>
-                        </li>
-                        <li>
-                            <a href="aniversariantes.php">
-                                <i class="fa fa-smile-o"></i>Aniversáriantes</a>
-                        </li>
+                     
                          <li>
                             <a href="carne">
-                                <i class="fa fa-space-shuttle"></i>Carnê</a>
+                                <i class="fa fa-space-shuttle"></i>sair do sistema</a>
                         </li>
                         
                         <li class="has-sub">

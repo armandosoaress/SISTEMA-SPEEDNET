@@ -39,7 +39,7 @@ https://www.tooplate.com/view/2121-wave-cafe
                 </a>
               </li>
               <li class="tm-page-nav-item">
-                <a href="../ordemdeservico.php" class="tm-page-link">
+                <a href="../pagamento.php" class="tm-page-link">
                 <i class="fas fa-money-bill-wave tm-page-link-icon"></i>
                   <span>Pagamento</span>
                 </a>

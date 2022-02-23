@@ -19,7 +19,7 @@ if($btnLogin){
 				$_SESSION['nome'] = $row_usuario['nome'];
 				$_SESSION['email'] = $row_usuario['email'];
 				
-				header("Location: Pagamento.php");
+				header("Location:nl");
 			}else{
 				$_SESSION['msg'] = "Login ou senha incorretos!";
 				header("Location:login/login.php");
