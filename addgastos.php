@@ -15,7 +15,7 @@ session_start();
           date_default_timezone_set('America/Sao_Paulo');
         $pagamento= date('d/m/Y', time());
       $hora= date('H:i:s');
-    $mes=date('m', time());
+     $mes=date('m', time());
   $ano= date('y', time());
 $_SESSION['msg'] = "Despesa $descricao adicionada!!<p> $pagamento ás $hora ";
 
@@ -26,7 +26,7 @@ $datadeincricaooo=  date('d-m-', time());;
    $resultado = $conn->query($consulta) or die($conn->error); 
 header('Location: despesas.php');
 
-
+    
 
 
 
