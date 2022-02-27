@@ -24,7 +24,7 @@ $datadeincricaooo=  date('d-m-', time());;
    $datedeinscricao= $datadeincricaooo.$anooo;
      $consulta = "INSERT INTO `gastos` (`id`, `valor`, `descricao`, `data`,`hora`,`mes`,ano,`responsavel`,`datacadastrada`) VALUES (NULL, '$gastos', '$descricao', '$pagamento','$hora','$mes','$ano','$responsavel','$datedeinscricao');";
    $resultado = $conn->query($consulta) or die($conn->error); 
-header('Location: despesas.php');
+   header('Location: despesas.php');
 
     
 
